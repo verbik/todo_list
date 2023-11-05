@@ -23,12 +23,12 @@
               {{ tag.name }}
           </td>
           <td>
-              <a href="{% url 'app:tag-update' pk=tag.id %}" class="btn-secondary">
+              <a href="{% url 'app:tag-update' pk=tag.id %}" class="btn btn-secondary">
                 Update
               </a>
             </td>
             <td>
-              <a class="btn-secondary"
+              <a class="btn btn-secondary"
                 href="{% url 'app:tag-delete' pk=tag.id%}">
                 Delete
               </a>
